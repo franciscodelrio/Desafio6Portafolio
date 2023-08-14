@@ -3,7 +3,7 @@
     margin: 0;
 }
 body{
-    background-color: #FAE392;
+    background-color: #35A29F;
 }
 header{
     width: 100%;
@@ -14,7 +14,8 @@ nav{
     position: fixed;
     width: 100%;
     padding: 20px;
-    background-color: #1A5D1A;
+    background-color: #071952;
+    
 }
 .CabezeraIcono{
     display: flex;
@@ -34,7 +35,8 @@ li{
     list-style: none;
 }
 .CabezeraIcono li:hover{
-    background-color: aqua;
+    text-shadow: 2px 2px #f31703;
+    
 }
 
 a{
@@ -49,13 +51,20 @@ a:hover{
     justify-content: center;
 }
 .FotoPerfil img{
-    width: 800px;
-    height: 500px;
+    width: 700px;
+    height: 450px;
     border-radius: 950px;
     border: rgb(0, 5, 5) 2px solid;
-    
+    margin: 20px;
+    transition: transform .2s; 
+   
+}
+
+.FotoPerfil img:hover{
+    transform: scale(1.1); 
 }
 .Info{
-    display:flex;
-    justify-content: center;
+    padding-top: 200px;
+    padding-left: 30px;
 }
+
