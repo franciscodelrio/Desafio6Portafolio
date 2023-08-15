@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/asset/style.css" />
 
     <title>Desafio 6 Portafolio</title>
@@ -19,9 +21,9 @@
         </ul>
         <ul class="BarraLateral">
           <li><a href="#">Inicio</a></li>
-          <li><a href="#">Portafolio</a></li>
+          <li><a href="#anclajePortafolio">Portafolio</a></li>
           <li><a href="#">Experiencia</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a href="#anclajeContacto">Contacto</a></li>
         </ul>
       </nav>
     </header>
@@ -36,12 +38,51 @@
                 <li><h3>Analista Programador, Inacap</h3></li>
                 <li><h3>Customer Engineer, NCR Corporation</h3></li>
                 <li><h3>Desarrolador Full Stark Java Script</h3></li>
+                
             </ul>
+            
         </div>
-    </section>
-    <section class="Portafolio">
         
-
     </section>
+    <a name="anclajePortafolio"/>
+    <div class="Portafolio">
+      
+        <h1>Portafolio</h1>
+    </div>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="/portafolio/Desafio 1/index.html" target="_blank"><img src="/asset/img/Desafio 1.png" class="d-block w100 " alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="/portafolio/Desafio 2/index.html" target="_blank"><img src="/asset/img/Desafio 2.png" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="/portafolio/Desafio 3/index.html" target="_blank"><img src="/asset/img/Desafio 3.png" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+         <a href="/portafolio/Desafio 4/index.html" target="_blank"> <img src="/asset/img/Desafio 4.png" class="d-block w-100 " alt="..."></a>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <a name="anclajeContacto"></a>
+    <div class="contacto">
+      <h1>Contacto</h1>
+      <input type="text" placeholder="Nombre"><br>
+      <input type="text" placeholder="Apellido"><br>
+      <input type="email" placeholder="nombre@example.cl"><br>
+      <input type="text" class="Opinion" placeholder="Danos tu Oponion"><br>
+      <input type="button" value="Enviar">
+      
+
+    </div>
   </body>
 </html>

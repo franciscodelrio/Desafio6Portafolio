@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+}
+
+header h1{
+    
+    color: white;
+    width: 1024px;
+    display: flex;
+    justify-content: center;
+
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.contenido{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    
+}
+.contenido img{
+    width: 500px;
+    
+}
+.contenido p{
+    width: 500px;
+    text-align: justify;
+    
+
+}
+.tituloIconos{  
+    display: flex;
+    justify-content: center;
+    
+}
+.iconos{
+    color: white;
+    background-color: rgb(50, 48, 48);
+    height: 200px;
+    padding: 50px;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    
+}
+
+.Photo img{
+    width: 350px;
+}
+.piePag{
+    padding: 60px;
+    background-color:rgb(50, 48, 48) ;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: aqua;
+}
+a:hover{
+    text-decoration:underline;
+    color: red;
+}
+
+
+

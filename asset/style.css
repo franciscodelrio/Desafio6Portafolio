@@ -15,6 +15,7 @@ nav{
     width: 100%;
     padding: 20px;
     background-color: #071952;
+    z-index: 100;
     
 }
 .CabezeraIcono{
@@ -55,7 +56,7 @@ a:hover{
     height: 450px;
     border-radius: 950px;
     border: rgb(0, 5, 5) 2px solid;
-    margin: 20px;
+    margin: 100px;
     transition: transform .2s; 
    
 }
@@ -67,4 +68,36 @@ a:hover{
     padding-top: 200px;
     padding-left: 30px;
 }
+
+.Portafolio{
+    margin: 100px;
+    text-align: center;
+}
+.carousel{
+    margin: 100px;
+}
+.d-block{
+    
+    align-items: center;
+}
+.carousel-item{
+    align-items: center;
+    
+}
+.contacto{
+    margin: 50px;
+    text-align: center;
+    background-color: #97FEED;
+    border-radius: 20px;
+}
+.contacto input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.Opinion{
+    width: 500px;
+    height: 100px;
+}
+
 
