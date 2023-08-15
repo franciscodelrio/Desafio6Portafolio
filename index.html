@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/a2b790f4cb.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/asset/style.css" />
@@ -12,38 +13,51 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="nav">
         <ul class="CabezeraIcono">
           <li><h1 title="Juan">J.</h1></li>
           <li><h1 title="Sebastián">S.</h1></li>
           <li><h1 title="Orellana">O.</h1></li>
           <li><h1 title="Sánchez">S.</h1></li>
         </ul>
-        <ul class="BarraLateral">
+        <ul class="BarraLateral ">
           <li><a href="#">Inicio</a></li>
           <li><a href="#anclajePortafolio">Portafolio</a></li>
-          <li><a href="#">Experiencia</a></li>
+          <li><a href="#anclajeExperiencia">Experiencia</a></li>
           <li><a href="#anclajeContacto">Contacto</a></li>
         </ul>
       </nav>
     </header>
-    <section class="CV">
-        <div class="FotoPerfil">
-            <img src="/asset/img/FotoPerfil.jpg" alt="Foto Perfil">
-        </div>
-        <div class="Info">
-            <ul>
-                <li><h3>Juan Sebastián Orellana Sánchez</h3></li>
-                <li><h3>Rengo, Chile</h3></li>
-                <li><h3>Analista Programador, Inacap</h3></li>
-                <li><h3>Customer Engineer, NCR Corporation</h3></li>
-                <li><h3>Desarrolador Full Stark Java Script</h3></li>
-                
-            </ul>
-            
-        </div>
+    <section class="container CV">
+      <div class="row">
+          <div class="col-md-5 FotoPerfil">
+              <img src="/asset/img/FotoPerfil.jpg" alt="Foto Perfil" class="img-fluid">
+          </div>
+          <div class="col-md-7 Info">
+              <ul class="list-unstyled">
+                  <li><h3><i class="fa-solid fa-user"></i> Juan Sebastián Orellana Sánchez</h3></li>
+                  <li><h3><i class="fa-solid fa-map-location"></i> Rengo, Chile</h3></li>
+                  <li><h3><i class="fa-solid fa-graduation-cap"></i> Analista Programador, Inacap</h3></li>
+                  <li><h3><i class="fa-solid fa-briefcase"></i> Customer Engineer, NCR Corporation</h3></li>
+                  <li><h3><i class="fa-solid fa-school"></i> Desarrollador Full Stark JavaScript</h3></li>
+              </ul>
+              <a name="anclajeExperiencia"></a>
+          </div>
+          
+      </div>
+      
+  </section>
+  
+  <div class="container Experiencia" >
+        <h1>Experiencia<i class="fa-solid fa-gears"></i></h1>
+        <br>      
+      <ul>
+          <li><h3><i class="fa-solid fa-wrench"></i>Operador de Informatica, Comercial ECSSA. Ripley</h3></li>
+          <li><h3><i class="fa-solid fa-wrench"></i>Tecnico en terreno, TNS S.A.</h3></li>
+          <li><h3><i class="fa-solid fa-wrench"></i>Customer Engineer, NCR Corporation</h3></li>
         
-    </section>
+      </ul>    
+  </div>
     <a name="anclajePortafolio"/>
     <div class="Portafolio">
       
@@ -74,15 +88,41 @@
       </button>
     </div>
     <a name="anclajeContacto"></a>
-    <div class="contacto">
-      <h1>Contacto</h1>
-      <input type="text" placeholder="Nombre"><br>
-      <input type="text" placeholder="Apellido"><br>
-      <input type="email" placeholder="nombre@example.cl"><br>
-      <input type="text" class="Opinion" placeholder="Danos tu Oponion"><br>
-      <input type="button" value="Enviar">
+    <div class="container contacto">
+      <h1 class="text-center">Contacto</h1>
+      <div class="row">
+          <div class="col-md-6">
+              <input type="text" class="form-control mb-3" placeholder="Nombre">
+          </div>
+          <div class="col-md-6">
+              <input type="text" class="form-control mb-3" placeholder="Apellido">
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-12">
+              <input type="email" class="form-control mb-3" placeholder="nombre@example.cl">
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-12">
+              <input type="text" class="form-control Opinion mb-3" placeholder="Danos tu Opinión">
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-12 text-center">
+              <input type="button" class="btn btn-primary" value="Enviar">
+          </div>
+      </div>
+  </div>
+  <footer class="container footerPage ">
       
-
-    </div>
+          <h2>J.S.O.S.</h2>
+          <h3><i class="fa-regular fa-copyright"></i></h3>
+          <h3>Todos los derechos reservados</h3>
+          
+     
+        
+            
+  </footer>
   </body>
 </html>

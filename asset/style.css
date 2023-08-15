@@ -47,16 +47,13 @@ a{
 a:hover{
     text-decoration: overline;
 }
-.CV{
-    display: flex;
-    justify-content: center;
-}
-.FotoPerfil img{
+
+*.FotoPerfil img{
     width: 700px;
     height: 450px;
     border-radius: 950px;
     border: rgb(0, 5, 5) 2px solid;
-    margin: 100px;
+    margin-top: 50px;
     transition: transform .2s; 
    
 }
@@ -85,19 +82,24 @@ a:hover{
     
 }
 .contacto{
-    margin: 50px;
-    text-align: center;
+    
     background-color: #97FEED;
     border-radius: 20px;
 }
-.contacto input{
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border-radius: 5px;
+.Experiencia{
+    margin-top: 70px;
+}.footerPage{
+    
+    display: flex;
+    justify-content: center;
+    margin-top:40px;
+    height: 80px;
+    background-color: #F0FF42;
+    border-radius: 20px;
+    padding-top: 20px;
 }
-.Opinion{
-    width: 500px;
-    height: 100px;
+.footerPage h2:hover{
+    text-shadow: 2px 2px #f31703;
 }
 
 
